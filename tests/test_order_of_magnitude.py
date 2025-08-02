@@ -10,6 +10,7 @@ from logscale import order_of_magnitude
 def test_order_of_magnitude_zero() -> None:
     """Test the order_of_magnitude function with zero."""
     assert order_of_magnitude(0) == "0.0e0"
+    assert order_of_magnitude(-0) == "0.0e0"
 
 
 def test_order_of_magnitude_positive() -> None:

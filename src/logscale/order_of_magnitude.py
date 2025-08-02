@@ -11,10 +11,10 @@ def order_of_magnitude(x: float) -> str:
     The result is formatted as '<coefficient>e<exponent>',
     with the coefficient rounded to two significant digits.
     """
-    if x == 0:
+    if x == 0.0:
         return "0.0e0"
 
-    sign = -1 if x < 0 else 1
+    sign = -1 if x < 0.0 else 1
 
     x = abs(x)
 
