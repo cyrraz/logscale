@@ -23,6 +23,5 @@ order_of_magnitude(129)  # "1.3e2"
 order_of_magnitude(0.0001)  # "1.0e-4"
 order_of_magnitude(456)  # "0.46e3"
 order_of_magnitude(70.2)  # "0.70e2"
-order_of_magnitude(-1 / 3)  # "-3.3e-1"
 order_of_magnitude(0)  # "0.0e0"
 ```
